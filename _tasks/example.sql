@@ -1,9 +1,11 @@
 REM TABLES
-@do tables/...sql
+@do tables/test_1.sql
 
 REM PROCEDURES
-@do procedures/...prc
-...
+@do procedures/test_2.prc
+
+REM FUNCTIONS
+@do functions/test_3.fnc
 
 REM RECOMPILE
 @recompile
